@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(102, 99, 99);
+	color: rgb(113, 82, 118);
+}
+a {
+	text-decoration: none;
+	color: rgb(92, 65, 97);
+}
+
+img.small {
+	min-height: 8rem;
+	width: 100%;
+}
+
+.text-right {
+	text-align: right;
+}
+
+button {
+	font-size: 0.8rem;
+	padding: 0.7rem;
+	border-radius: 0.5rem;
+	border: 0.1rem grey solid;
+	background-color: rgb(165, 117, 173);
+	margin: 0 auto;
+	width: 60%;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+
+button.badge {
+	background-color: rgb(116, 31, 123);
+	border: none;
+	color: #fff;
+	width: 1.5rem;
+}
+
+.card {
+	background-color: rgb(161, 159, 159);
+	padding: 1rem;
+	margin: 0.5rem;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.row.center {
+	align-items: center;
+}
+
+.col-1 {
+	flex-basis: 100%;
+}
+.col-2 {
+	flex-basis: 100%;
+}
+@media screen and (min-width: 800px) {
+	.col-1 {
+		flex: 1;
+	}
+	.col-2 {
+		flex: 2;
+	}
+}
+
+.block {
+	background-color: rgb(201, 200, 200);
+	padding: 1rem;
+	margin: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+button.add {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e9e9e9;
+	width: 1.5rem;
+}
+button.remove {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #6d6b6b;
+	width: 1.5rem;
+}
+button.badge {
+	background-color: #6d6b6b;
+	border: none;
+	color: #ffffff;
+	width: 1.5rem;
+}
